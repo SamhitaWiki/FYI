@@ -1,6 +1,6 @@
 Back in 2015, we (pykih) visualized the Census of India and [Changes made to the Constitution of India](http://constitution-of-india.pykih.com). The later was done along with data journalist Rukmini Shrinivasan from The Hindu and the Vidhi Center. The project was well-received. Since then, we have wanted to start our own site or initiative with visual essays on issues that matter.
 
-Historically, India had a tradition to setup Samhitas that is collectives of experts who work together to build systematic collection of knowledge within a single topic. 
+Historically, India had a tradition to setup [Samhitas](https://en.m.wikipedia.org/wiki/Samhita#Post-Vedic_Samhitas) that is collectives of experts who work together to build systematic collection of knowledge within a single topic. Over the years, their texts have moved knowledge f
 
 
 
