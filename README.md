@@ -1,6 +1,6 @@
 Back in 2015, we (pykih) visualized the Census of India and [Changes made to the Constitution of India](http://constitution-of-india.pykih.com). The later was done along with data journalist Rukmini Shrinivasan from The Hindu and the Vidhi Center. The project was well-received. Since then, we have wanted to start our own site or initiative with visual essays on issues that matter.
 
-Historically, India had a tradition to setup [Samhitas](https://en.m.wikipedia.org/wiki/Samhita#Post-Vedic_Samhitas) that is collectives of experts who work together to build systematic collection of knowledge within a single topic. Often we are [aware of these things but not really conscious of them](https://www.philosophyetc.net/2004/09/analytic-knife.html). The knowledge compiled by these Samhitas encoded knowledge for centuries to come.
+Historically, India had a tradition to setup [Samhitas](https://en.m.wikipedia.org/wiki/Samhita#Post-Vedic_Samhitas) — collectives of experts who work together to build systematic collection of knowledge within a single topic. Often we are [aware of these things but not really conscious of them](https://www.philosophyetc.net/2004/09/analytic-knife.html). The knowledge compiled by these Samhitas encoded knowledge for centuries to come.
 
 ## In these essays, we want to cover —
 * Methods: How to do things
