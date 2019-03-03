@@ -1,6 +1,10 @@
 Back in 2015, we (pykih) visualized the Census of India and [Changes made to the Constitution of India](http://constitution-of-india.pykih.com). The later was done along with data journalist Rukmini Shrinivasan from The Hindu and the Vidhi Center. The project was well-received. Since then, we have wanted to start our own site or initiative with visual essays on issues that matter.
 
-To write good essays, we need domain experts, researchers, designers and programmers. We intend to setup informal collectives of people who are deeply interested in specific topics and collectively write the essays. Historically, India had Samhitas -- Systematic collection of knowledge
+Historically, India had a tradition to setup Samhitas that is collectives of experts who work together to build systematic collection of knowledge within a single topic. 
+
+
+
+
 
 Often people are aware of things but not conscious of them [Ref](https://www.philosophyetc.net/2004/09/analytic-knife.html). Over the years, we have realized that good visualizations can help people structure, imagine and grasp complex ideas.
 
