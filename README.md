@@ -1,5 +1,7 @@
 Back in 2015, we (pykih) visualized the Census of India and [Changes made to the Constitution of India](http://constitution-of-india.pykih.com). The later was done along with data journalist Rukmini Shrinivasan from The Hindu and the Vidhi Center. The project was well-received. Since then, we have wanted to start our own site or initiative with visual essays on issues that matter.
 
+To write good essays, we need domain experts, researchers, designers and programmers. We intend to setup informal collectives of people who are deeply interested in specific topics and collectively write the essays. Historically, India had Samhitas -- Systematic collection of knowledge
+
 Often people are aware of things but not conscious of them [Ref](https://www.philosophyetc.net/2004/09/analytic-knife.html). Over the years, we have realized that good visualizations can help people structure, imagine and grasp complex ideas.
 
 ## In these essays, we want to cover —
@@ -15,15 +17,7 @@ Often people are aware of things but not conscious of them [Ref](https://www.phi
 * Given the polarized environment in India, we want to stay away from topics/language that polarize and instead focus on strategic problems
 * Additionally, we do not want to be in news and instead focus on things that do not change
 
----
-
-To write good essays, we need domain experts, researchers, designers and programmers. We intend to setup informal collectives of people who are deeply interested in specific topics and collectively write the essays.
-
-Historically, India had Samhitas -- Systematic collection of knowledge
-
----
-
-## Who else is doing something similar? Below are sites/projects we are inspired from
+## Below are some projects that have inspired us
  
 * [Pudding.cool](https://pudding.cool/) and [Polygraph.cool](http://polygraph.cool/)
 * [DataSketches](http://www.datasketch.es/)
