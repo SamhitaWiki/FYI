@@ -2,13 +2,13 @@ Back in 2015, we (pykih) visualized the Census of India and [Changes made to the
 
 Often people are aware of things but not conscious of them [Ref](https://www.philosophyetc.net/2004/09/analytic-knife.html). Over the years, we have realized that good visualizations can help people structure, imagine and grasp complex ideas.
 
-In these essays, we want to cover —
+## In these essays, we want to cover —
 * Methods: How to do things
 * Systems: How things work in the real world
 * Contrast: Compare and contrast two narratives on the same issues
 * Networks: See how people, places, things and organizations are related
 
-Given our history, we want the essays to be —
+## Given our history, we want the essays to be —
 * Structured/Data-driven
 * Visual
 * Algorithmic
@@ -23,7 +23,7 @@ Historically, India had Samhitas -- Systematic collection of knowledge
 
 ---
 
-### Who else is doing something similar?
+## Who else is doing something similar? Below are sites/projects we are inspired from
  
 * [Pudding.cool](https://pudding.cool/) and [Polygraph.cool](http://polygraph.cool/)
 * [DataSketches](http://www.datasketch.es/)
