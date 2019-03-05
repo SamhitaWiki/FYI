@@ -14,6 +14,9 @@ Historically, India had a tradition to setup [Samhitas](https://en.m.wikipedia.o
 * Algorithmic
 * Given the polarized environment in India, we want to stay away from topics/language that polarize and instead focus on strategic problems
 * Additionally, we do not want to be in news and instead focus on things that do not change
+* Published in a series of 9 articles related to one topic covering it from different perspectives. (shows -> seasons -> episodes)
+* Each visual essay will be written as an article around various topics. These articles can then be mapped to create vertical around broader social issue. (URLs -> articles) 
+
 
 ## Below are some projects that have inspired us
  
