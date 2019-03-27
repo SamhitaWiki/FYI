@@ -1,0 +1,392 @@
+Code (HTML tags)
+
+Use Robots meta tag
+Default value is follow, index
+<meta name=”robots” content=[parameter]>
+E.g <meta name=”robots” content=[follow,noindex]>
+Use canonical link element to avoid duplicate content
+If you have the same content on multiple pages on your website, you’ll have duplicate content
+A canonical tag (aka "rel canonical") is a way of telling search engines that a specific URL represents the master copy of a page. 
+Add canonical url to all pages.
+For e.g. crawler can reach a specific page using the following url:
+www.pykih.com/mohit
+www.pykih.com/mohitnihalani
+www.pykih.com/organiziation/mohit
+To avoid crawling issues use canonical tags:
+Add a rel=canonical link from the non-canonical page to the canonical one. So if we picked the shortest URL as our canonical URL, the other URL would link to the shortest URL in the <head> section of the page – like this:
+<link rel="canonical" href="http://pykih.com/mohit/" />
+Use descriptive alt tags for the url
+Always add alt tags for the images
+In case of a linked image, the alt text should be the title of the page it’s linking to.
+Alt tag should contain keyphrase.
+Use structured data
+Use schema.org to loop for structured data markup supported by the search engines.
+Use JSON-ld to create structured markup and insert that markup in head of the page:
+E.g. markup of recipe
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Recipe",
+  "author": "John Smith",
+  "cookTime": "PT1H",
+  "datePublished": "2009-05-08",
+  "description": "This classic banana bread recipe comes from my mom -- the walnuts add a nice texture and flavor to the banana bread.",
+  "image": "bananabread.jpg",
+  "recipeIngredient": [
+    "3 or 4 ripe bananas, smashed",
+    "1 egg",
+    "3/4 cup of sugar"
+  ],
+  "interactionStatistic": {
+    "@type": "InteractionCounter",
+    "interactionType": "http://schema.org/Comment",
+    "userInteractionCount": "140"
+  },
+  "name": "Mom's World Famous Banana Bread",
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "calories": "240 calories",
+    "fatContent": "9 grams fat"
+  },
+  "prepTime": "PT15M",
+  "recipeInstructions": "Preheat the oven to 350 degrees. Mix in the ingredients in a bowl. Add the flour last. Pour the mixture into a loaf pan and bake for one hour.",
+  "recipeYield": "1 loaf",
+  "suitableForDiet": "http://schema.org/LowFatDiet"
+}
+</script>
+Use tools such as Structure Data testing to check any errors in JSON-LD.
+Add keywords on the h1 tag of the page.
+Include meta tags such as meta description and meta title and make sure these contains keywords.
+Make sure that title tag of every page is different.
+Add descriptive anchor text.
+Anchor text which links to other pages should contain keywords of the page and should describe what the page is about.
+Never just link the url.
+Use geo meta tags to let search engines know your location.
+While creating pagination always add rel=”next” and rel=”prev” in the link tag.
+
+Images
+Preparing your Images
+Find and select the right image.
+Always find unique and original images which matches your mission or topic of content.
+Choose a right file name
+Google uses the file name to determine what an image is about. That’s why you should use your focus keyphrase in the image file name.
+Note that you should always start your file name with your main keyphrase
+Choose right Format
+
+Format
+Usefulness
+JPEG
+larger photos or illustrations
+PNG
+To preserve background transparency
+
+
+WebP
+Produce high-quality results with smaller file sizes
+SVG
+For logos and icons
+
+Scale your images
+Resize all the images to the size you want to display.
+Resize your images	
+Make sure that scaled image is compressed so it is served in the smallest file size possible.
+Reduce the size of images is by removing the Exif data
+Tools are mentioned in tools section.
+Use responsive image.
+This means you serve a different image per screen width.
+For example, with responsive images, you serve a small image to visitors using a mobile device, while for the same article, you serve a larger image to visitors using a larger screen desktop
+
+Url’s
+Describe your content
+A user should be able to make an accurate guess about the content of a web page simply by reading the URL.
+To accomplish this, a URL should include an accurate phrase or term that pertains to the page content.
+Include Keywords in URL.
+Use hyphens to separate words
+Use lowercase letters
+Keep urls short
+Always use absolute url not the relative ones.
+Use subdirectory structure rather than subdomain structure.
+Better: http://www.example.com/topic
+Not - optimized: http://topic.example.com
+Minimize dynamic url strings
+Make correct use of canonical tags.
+Modify URLs so that they don’t look like they’re pointing to dynamic pages.
+Fix the problem by removing characters such as ?, #, !, *, %, and & and reducing the number of parameters to one.
+If there are such types of url use mod_rewrite to create restful URL architecture.
+
+
+
+Robots.txt
+Use only to block the complete sub-directory otherwise search engine will not be able to crawl sites and this will impact rank.
+Never prevent crawlers to crawl css and js file until necessary.
+List all the XML sitemaps. (important)
+Use google search console to check and validate robots.txt file.
+
+XML sitemaps
+Create xml sitemaps which contains all the URL of the page.
+Add this sitemap on google webmaster which helps google to crawl all your pages.
+Format of XML sitemap is 
+
+Should contain location tag.
+Should accurately reflect your site protocol (http or https) and if you have chosen to include or exclude www.
+Last modified date
+Priority Tag
+Limitations of XML sitemap
+A maximum of 50000 urls
+Uncompressed file size of 50mb
+After creating sitemap add them to google, yahoo and bing webmaster tools.
+Add your sitemap path to robots.txt file.
+
+Optimizing sitemap
+Only include SEO relevant pages in sitemap.
+Exclude:
+Non-canonical pages.
+Duplicate pages.
+Paginated pages.
+Parameter or session ID based URLs.
+Site search result pages.
+Reply to comment URLs.
+Share via email URLs.
+URLs created by filtering that are unnecessary for SEO.
+Archive pages.
+Any redirections (3xx), missing pages (4xx) or server error pages (5xx).
+Pages blocked by robots.txt.
+Pages with noindex.
+Resource pages accessible by a lead gen form (e.g., white paper PDFs).
+Utility pages that are useful to users, but not intended to be landing pages (login page, contact us, privacy policy, account pages, etc.).
+If number of url exceeds then use sitemap index file.
+Use descriptive sitemap names that reflect your site structure. 
+Don’t set the sitemap name as sitemap1, sitemap2, sitemap3, instead follow the structure of your website and name accordingly,
+Such as project sitemap should be /sitemap/projects, organization should be /sitemap/organization.
+If you have video in the website then create a seperate video sitemap.
+
+.htaccess file:
+Create a page in which the errors will return from. Example:
+	T
+Redirect all the error codes to the following page:
+
+
+Metrics for Checking
+
+Speed
+Loading time of the site should be less.
+Tools for site-speed:-
+Web page test
+Google PageSpeed Insights
+Google lighthouse
+Pingdom tools
+Things to improve site-speed:-
+Enable compression of your website file using compressing tools such as GZIP.
+Minify css, javascript, HTML
+Reduce redirects
+Remove render blocking javascript
+Security
+Website secured with SSL.
+Use of HTTPS over HTTPS.
+Crawlability
+Accessibility
+Test your site with disabling styles
+See if the quality and semantics of HTML are done right.
+There is a logical grouping of elements and the structure is clear
+Unplug your mouse and use the keyboard for navigation
+Any user interface, including websites, should be fully operable regardless of the device used to interact with. 
+Check the contrast
+The most frequently used requirement for this is to guarantee a contrast of at least 4.5:1 between text and background.
+Very big text can have a lower ratio of 3:1.
+Check contrast on color contrast analyser.
+Use accessibility evaluation tools
+Webaim Wave 
+Deque Axe
+Conversion Rate Optimization
+User Testing
+Perform A/B testing
+Consider putting a small survey and visitors some questions such as. ‘What’s the goal of your visit today?’ Or: ‘What’s keeping you from buying this product?’.
+
+
+
+Tools
+
+FOR
+Tools
+Keyphrase Searching
+Using Google Adwords Keyword Planner, 
+Yoast Suggest
+Google Trends
+Internal search engine
+Answerthepublic
+Bing keyword Research
+
+Sitespeed Checking
+Web page test
+Google PageSpeed Insights
+Google lighthouse
+Pingdom tools			
+
+Structured Data
+JSON-LD
+Schema.org	
+google structured data markup
+
+Structured Data testing
+Structure Data testing			
+
+SEO Tools 
+Google analytics, google search console
+Crawlability Check
+Google search console.
+Accessibility evaluation tools
+Webaim Wave 
+Deque Axe
+
+User testing for CRO (conversion rate optimization)
+ abtestguide.com.
+Reducing image file size
+ImageOptim
+JPEGmini
+jpeg.io
+Kraken.io		
+
+Compression of File
+GZIP.
+Mobile friendly test
+Mobile friendly test
+Google Webmaster
+https://www.google.com/webmasters/#?modal_active=none
+Sitemap
+Sitemap Index
+Schema Sitemap
+Creating Site Map
+Submitting Sites
+Google
+Bing
+Page Speed
+Google Page Speed
+Website Crawler
+Screaming Frog
+A/B Testing
+AB Test Guide.
+
+
+Mobile Friendliness
+Is your website compatible with mobile.
+Test loading time on mobile devices.
+Design for mobile
+Don't use flash and pop ups.
+Use google Mobile friendly test to check mobile friendly.
+Responsive Design
+Site should be adjustable on the screen on which it is viewed on.
+Do not restrict users to view content.
+Dynamic Serving 
+With this method, you have two versions of your Web site: one for smartphones, and another for larger devices. The Web server decides which version to send when a page is requested.
+Separate Urls:
+In this case, you have two versions of your site. The server directs the user to the most appropriate site, on a different URL, depending on the device.
+https://moz.com/learn/seo/mobile-optimization
+
+Keywords:
+
+Use keywords in folder names and filenames, and in page files and image files.
+Use keywords near top of the page.
+Place keywords into <H> (heading) tag.
+Use bold and italic keywords.
+Keywords should be between 1%-5% of the page overall content.
+Use keywords in meta tags of the page.
+Only one keyword or keyphrase per page.
+Use different keyphrase or keyword for different pages.
+Links between pages within your site contain keywords.
+Use synonyms and different word forms such as singulars and plurals instead of just 
+Use tools such as 
+Google Adwords Keywords Planner
+Bing Keywords Research Tool
+
+
+Site Structure:
+
+Identify most important pages/projects of the website.
+Link most important pages from home pages.
+Minimize cluttering the homepage.
+Logo links to the homepage.
+Descriptive navigation links.
+Is the internal anchor text used in navigation links descriptive and aligned with keyword goals?.
+Divide content in Categories and Sub-Categories
+Add categories on the homepage and also on the main menu of the site.
+Name of the category should resemble the search terms used by your audience.
+Thumb rule for categories is that no category should be twice the size of any other category.
+Are all targeted keywords properly represented in site navigation.
+Create Easy Navigation for the users:
+Breadcrumbs
+Visible above the title of the post.
+Tags
+Limit the amount of tags you use;
+Make sure tags are used more than one/two
+Make sure tags are visible.
+Make sure every pages contains some links to other pages.
+Anchor tags should be clear and specific. It should reflect the context of the page it is linked to.
+Anchor text is one of the most important, specify the page heading in this.
+Identify the corner store pages and create most links toward that.
+URL structure should be in harmony with the site navigation structure,
+Make sure don't use canonical tags in the paginated pages.
+Primary target distance.
+Run a screaming frog crawl and filter content by html and sort crawl ascending  and check if there are any important pages more then two levels of the homepage.
+
+
+
+UX:
+
+Do’s
+Don’ts
+Make your buttons look like buttons
+Don’t write: ‘Click here to (…)’.Button should state clear call-to-action, for example: ‘buy this product’, ‘contact us’, ‘log in’, ‘activate’, and ‘download’.
+Links should have a different color than the rest of the text, but this shouldn’t be the only visual means of indicating it’s a link
+Don’t make users guess where their click takes them
+Communicate with the words your users use
+Make the items descriptive. Don’t call an item ‘employment opportunities’, call it ‘jobs’.
+make sure important pages on your site are no more than three clicks away from your homepage.
+
+
+
+
+Make sure people can always find their way back out of the rabbit hole they go into.
+
+
+Provide users with some kind of map which they can use to navigate. For e.g. using breadcrumbs.
+
+
+If there is a search box, make it easier to find.
+
+
+
+
+Copywriting:
+Checklist to keep in mind while writing your post:
+Length
+Your text contains 300 to 800 words.
+Preparation
+Your text has a clear purpose.
+Your central message is clear and formulated at the correct places.
+You use a tone appropriate for your audience.
+Keyword
+You use your keywords at the right places.
+You use your keyword an adequate amount of times.
+Structure
+The subtopics of your text are discussed in a logical order.
+Your paragraphs are well-structured.
+In each paragraph, you discuss only one topic.
+You use subheadings correctly.
+Readability
+You use synonyms to avoid using the same word over and over.
+Your sentences are not too long.
+Your sentences show variation in length, structure and beginning words.
+You use transition words correctly.
+Your paragraphs are of adequate length.
+You avoid passive voice whenever possible
+You avoid complex words whenever possible
+Style
+Your writing style is consistent.
+You use concrete language.
+You use examples correctly (if applicable).
+You use asides correctly (if applicable).
+The humor you used is appropriate (if applicable).
+Metaphors and expressions are used in moderation (if applicable).
+After you started with an anecdote or case study, you have rounded things up in the final paragraph (if applicable).
+Typography
+
