@@ -88,6 +88,9 @@
 * Use lowercase letters
 * Keep urls short and descriptive
 * Always use **absolute url** not the relative ones.
+   * absolute urls: `<a href="services/video-production/corporate-videos">`
+   * relative urls:  `<a href="/corporate-videos">`
+<a href="corporate-videos">`
 * Use subdirectory structure rather than subdomain structure.
     * Better: http://www.example.com/topic
     * Not - optimized: http://topic.example.com
@@ -150,6 +153,7 @@
     * With this method, you have two versions of your Web site: one for smartphones, and another for larger devices. The Web server decides which version to send when a page is requested.
     * Separate Urls:
         * In this case, you have two versions of your site. The server directs the user to the most appropriate site, on a different URL, depending on the device.
+        * Eg of seperate url is like of facebook, when it checks the user agent is from desktop browser it opens www.facebook.com and when it checks that user agent is from mobile browser it redirects the user to m.facebook.com.
 * https://moz.com/learn/seo/mobile-optimization
 
 ## Keywords:
