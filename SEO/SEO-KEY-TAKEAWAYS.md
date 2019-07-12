@@ -190,10 +190,10 @@
         * Limit the amount of tags you use;
         * Make sure tags are used more than one/two
         * Make sure tags are visible.
-    * Make sure every pages contains some links to other pages.
+    * Make sure every page contains some links to other pages on your site (internal linking).
     *  Anchor tags should be clear and specific. It should reflect the context of the page it is linked to.
     *   Anchor text is one of the most important, specify the page heading in this.
-    * Identify the corner store pages and create most links toward that.
+    * Identify the cornerstone content of your website and create most links towards it. Cornerstone content is the most important content on your website. It represents your mission. It is lengthy, timeless and informative. It should be regularly updated. 
 * URL structure should be in harmony with the site navigation structure,
 * Make sure don't use canonical tags in the paginated pages.
 * Your main pages should not be more then two clicks away from the home page.
@@ -202,35 +202,45 @@
 * Checklist to keep in mind while writing your post:
     * Length
         * Your text contains 300 to 800 words.
-    * Preparation
-        * Your text has a clear purpose.
-        * Your central message is clear and formulated at the correct places.
+    * Preparation 
+        * Prepare an audience profile (ask yourself "Who is going to read this?")
+        * Gauge search intent of audience (are they looking for information i.e. informative intent or are they looking to buy something i.e. commercial intent?) 
+        * Be clear about your text purpose (is it to convince, inform or entertain?)
+        * Your central message is clear and formulated and conveyed at the correct places (usually 1st and last paragraph).
         * You use a tone appropriate for your audience.
     * Keyword
         * You use your keywords at the right places.
-        * You use your keyword an adequate amount of times.
+        * You use your keyphrase an adequate amount of times (should comprise 1-5% of the text).
     * Structure
+        * There should be clear headings and subheadings.
+        * In each paragraph, discuss only one topic.
+        * Paragraphs should never be just 1 sentence. Each para should at least have 3 sentences & a maximum of 4-5 sentences. 
         * The subtopics of your text are discussed in a logical order.
-        * Your paragraphs are well-structured.
-        * In each paragraph, you discuss only one topic.
-        * You use subheadings correctly.
+        * Make clear transitions between paragraphs.
+        * Add headings to longer paragraphs or clusters of thematically similar smaller paragraphs. 
+        * Add keyphrase to 1 or more headings.
     * Readability
-        * You use synonyms to avoid using the same word over and over.
-        * Your sentences are not too long.
-        * Your sentences show variation in length, structure and beginning words.
-        * You use transition words correctly.
-        * Your paragraphs are of adequate length.
-        * You avoid passive voice whenever possible
-        * You avoid complex words whenever possible
+        * Use synonyms to avoid using the same word over and over.
+        * Subheadings should be clear and informative (no cliffhangers)
+        * Sentences should show variation in length, structure and beginning words.
+        * Use transition words correctly and frequently.
+        * Avoid passive voice whenever possible.
+        * Avoid complex words whenever possible.
     * Style
-        * Your writing style is consistent.
-        * You use concrete language.
-        * You use examples correctly (if applicable).
-        * You use asides correctly (if applicable).
+        * Writing style should be consistent across the text.
+        * Use concrete language.
+        * Use examples correctly (if applicable).
+        * Use asides correctly (if applicable).
         * The humor you used is appropriate (if applicable).
         * Metaphors and expressions are used in moderation (if applicable).
         * After you started with an anecdote or case study, you have rounded things up in the final paragraph (if applicable).
     * Typography
+    * Editing
+        * Go through text and make sure there isn't too much information in text. 
+        * Sentences should not be longer than 20 words or too complicated.
+        * Long sentences should comprise no more than 1/4th of the text.
+        * Change passive sentences to active ones.
+        * Use SVO order when forming sentences (Subject-Verb-Object)
 
 ## UX:
 
