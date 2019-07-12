@@ -80,6 +80,12 @@
     * Make sure that scaled image is compressed so it is served in the smallest file size possible.
     * Reduce the size of images, by removing the Exif data. (using tools)
 * Use responsive image which serves different image per screen width.
+* Adding Images to Articles
+    * Place image next to relevant text.
+    * Place main image near the top.
+    * Align image so that flow of reading is not broken.
+    * Add descriptive captions to the image
+    * Use keyphrase in the alt text/tags. This is what the user will see when the image is not loading. 
 
 ## Page Url’s
 * Url should describe your content and should include an accurate phrase or term that pertains to the page content 
@@ -236,12 +242,46 @@
         * After you started with an anecdote or case study, you have rounded things up in the final paragraph (if applicable).
     * Typography
     * Editing
-        * Go through text and make sure there isn't too much information in text. 
+        * Go through text and make sure there isn't too much information in text.
         * Sentences should not be longer than 20 words or too complicated.
         * Long sentences should comprise no more than 1/4th of the text.
+        * Break longer sentences into smaller ones and connect them using transition words.
         * Change passive sentences to active ones.
         * Use SVO order when forming sentences (Subject-Verb-Object)
+        
+## Off-Page SEO 
 
+* Link Building
+   * Backlinking: Getting links from other websites to your site
+   * Links from similar web pages have a high link value.
+   * Links from within an article have a higher link value than links from side bar or the footer.
+   
+* E-Mail Marketing
+   * Use newsletters to build a returning audience as well as to direct users to important pages
+   * Pick the right subject line 
+   * Place most important content at the top
+   * Add a clear Call-to-Action
+   * Use drip-feed email campaigns. These are pre-written sets of messages are sent to people over a period of time (Use Mailchimp/ Tinyletter).
+
+* Social Media 
+   * Social media profiles provide more info to your audience on the medium they prefer.
+   * Social media can enrich search results (for ex- tweet carrousel).
+   * Know what platform your audience prefers.
+   * Know on which platform you can find your target group.
+
+## Site Structure
+
+* Have internal linking i.e. links from 1 page of your website should lead to other pages. 
+* Internal links should be contextual i.e. they should direct to other related content.
+* Organizing your Website
+   * Homepage should be like a navigation hub that links to the most important pages.
+   * Categorize and tag content on your site.
+   * Categories shouldn't be too many, should be roughly the same size and there should be at least 1 category to each post.
+   * Display main categories prominently in site menu and homepage.
+   * Create clear breadcrumbs.
+   * Properly archive pages.
+  
+               
 ## UX:
 
 | Do's       | Don'ts    | 
